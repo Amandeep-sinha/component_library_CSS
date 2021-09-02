@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amandeep's | Library</title>
+
+    <!-- 
+   1st way to apply CSS 
+   <style>
+        body{
+            color: red;
+        }
+            
+    </style>   -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>Amandeep's Component Library</h1>
+    <!-- 2nd way to implement CSS
+        style=color:red; -->
+    <div>I'm attending the level Zero of neog.camp and my mentor is Tanay Pratap
+        who is a great Web-developer and I too pacticing hard to be a great Web-developer.</div>
+
+    <div>I am creating this Component Library beacuse its a good practice to create
+        a Library before getting into development of your portfolio...
+    </div>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the Biggest Heading in HTML.</h1>
+    <h2>This is the second Biggest heading in HTML.</h2>
+    <div>This is the normal text used in paragraph.</div>
+    <div>This is a <strong>BOLD </strong>Text.</div>
+    <small>This is relatively smaller text than usual.</small>
+
+    <hr>
+
+    <h2>@container</h2>
+    <h3>> fluid container </h3>
+    <div class = "container-fluid">This is a fluid container. It will go full widht of page, with some margin.</div>
+
+    <h3>> centered container</h3>
+    <div  class="container-center">This is a centered container. It will go upto the specified width.</div>
+
+    <hr>
+    <h2>@links</h2>
+
+    <h3>> Primary link</h3>
+    <a class=" link link-primary" href="http://www.uniqueevent.in">Wordpress site created by me(Primary link)</a>
+
+    <h3>> Secondary link</h3>
+    <a class="link link-secondary" href="https://www.google.com">Google(Secondary link)</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>> Unordered list</h3>
+    <div>The list which don't have serial no's. We can specify the type of bullets like
+        disc, square, none, etc. </div>
+    <div>Example</div>
+    <ul type="square">
+        <li>int</li>
+        <li>char</li>
+        <li>float</li>
+        <li>boolean</li>
+    </ul>
+
+    <h3>> Unordered inline list</h3>
+    <div>The list which don't have serial no's as well as the items of list are in
+        single line or row.
+    </div>
+    <div>Example</div>
+
+    <ul class="list">
+        <li class="list-unordered">C</li>
+        <li class="list-unordered">C++</li>
+        <li class="list-unordered">Java</li>
+        <li class="list-unordered">Python</li>
+        <li class="list-unordered">java script</li>
+    </ul>
+
+    <h3>> Ordered list</h3>
+    <div>The list which have serial no's as bullets.</div>
+    <div>Example</div>
+    <ol>
+        <li>Facebook</li>
+        <li>Amazon</li>
+        <li>Apple</li>
+        <li>Netfix</li>
+        <li>Google</li>
+    </ol>
+
+
+    <h3>> Reverse ordered list</h3>
+    <div>The list which have serial no's but in reverse order</div>
+    <div>Example</div>
+    <ol reversed>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Eggs</li>
+    </ol>
+
+    <hr>
+
+    <h2>@navigation</h2>
+    <div>Navigation is usually used on the top of the Web-pages so that user can
+        easily navigate through the web-pages inside the website.
+    </div>
+
+    <ul style=text-align:right class="list">
+
+        <li class="list-unordered"><a class="link l1" href="/"><strong>Home</strong></a></li>
+        <li class="list-unordered"><a class="link l1" href="/">Projects</a></li>
+        <li class="list-unordered"><a class="link l1" href="/">About</a></li>
+        <li class="list-unordered"><a class="link l1" href="/">Contact</a></li>
+
+    </ul>
+
+    <hr>
+
+    <h2>@header</h2>
+    <div> The text or image used at the top of the page is called as header.</div>
+
+    <header>
+        <img class="head" src="image/img2.svg">
+
+        <h1>Heading inside header</h1>
+        <h3>> importing image directly from social profiles</h3>
+        <img class="head"
+            src="https://scontent.fpat3-3.fna.fbcdn.net/v/t1.6435-9/77278267_1368091303357662_2095200959566184448_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=_Bi6cTkM33MAX_jNHV8&_nc_ht=scontent.fpat3-3.fna&oh=dce5141575c3b091e706d72be9ca103a&oe=6155027E">
+
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+
+    <h3>> White Section</h3>
+    <div class="section white-section">This section will have White background. <br> <br> HTML :- HTML stands for Hyper Text Markup Language
+        HTML is the standard markup language for creating Web pages
+        HTML describes the structure of a Web page
+        HTML consists of a series of elements
+        HTML elements tell the browser how to display the content
+    </div>
+    <h3>> Blue Section</h3>
+    <div class="section  blue-section">This section will have Blue background. <br> <br>
+        CSS stands for cascading style sheets. 
+        CSS is the language we use to style an HTML document.
+
+        CSS describes how HTML elements should be displayed. CSS is Easier to maintain and update.
+        This page is also using Cascading style sheets.</div>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="bgf">
+        <div>
+            <h4>Can connect me there on social profiles below.</h4>
+        </div>
+        <ul class="footer">
+            <li class="list list-unordered"><a class="link " href="https://www.facebook.com/amandeep.sinha.33">Facebook</a></li>
+            <li class="list list-unordered"><a class="link " href="https://www.instagram.com/_amandeep_sinha_/?hl=en">Instagram</a></li>
+            <li class="list list-unordered"><a class="link " href="https://www.linkedin.com/in/amandeep-sinha-1257251a2/">Linkedin</a></li>
+        </ul>
+
+    </footer>
+
+    <!-- <h2>@whatsapp</h2>
+    <div><a href="https://wa.me/<918092547315>">whatsapp</a></div> -->
+
+
+    <!-- <div style="height: 50vh;"> 
+</div> -->
+</body>
+
+</html>
